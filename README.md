@@ -70,7 +70,33 @@ flowchart LR
 - **Telemetry over screenshots.** OpenTelemetry spans per step link test failures to backend traces, so triage starts with data.
 - **Migration by tooling.** Legacy Tosca and Selenium estates are converted, not manually rewritten.
 
-## Featured projects
+## Enterprise platforms (private)
+
+These platforms live in private / client repositories. Public source is not available; capability and outcomes are summarised below.
+
+| Platform | About the work | What makes it strong |
+|---|---|---|
+| **DevEval Framework** *(private)* | Enterprise evaluation framework for developer and QA automation quality — scoring framework health, coverage depth, flaky-test rate, CI feedback time, and maintainability of Playwright / Selenium suites. Used to baseline teams and track improvement across programs. | Gives leadership a **measurable quality scorecard** instead of anecdotal status · Highlights weak layers (UI vs API vs contract) before release risk grows · Standardises how automation maturity is compared across projects · Feeds Copilot / agent-assisted remediation priorities |
+| **AIQA Platform** *(private)* | End-to-end AI quality platform: Planner → Generator → Healer agents on Playwright MCP, RAG over project knowledge, AI test-case generation, contract-testing agents, and OpenTelemetry-backed run analytics. Powers no-code / low-code authoring (Playtest) and Tosca-to-Playwright migration tooling for delivery teams. | **Agentic QA with human review** — agents propose, engineers approve · Cuts automation setup / maintenance effort **35–40%** and development effort **~50%** on Playtest paths · Speeds Tosca → Playwright migration by **~60%** · Improves coverage **25–30%** and regression cycle time **25–30%** · One platform for UI, API, contract, and LLM-feature testing |
+
+### DevEval — outcomes teams care about
+
+- Framework health score (structure, reuse, flake rate, Parallelisation readiness)
+- Coverage and risk heatmaps by module and test layer
+- Actionable backlog: what to fix first for the largest quality gain
+- Consistent evaluation model across NewVision delivery programs
+
+### AIQA — outcomes teams care about
+
+- AI-generated Playwright specs that follow the house framework (fixtures, POM, reporters)
+- Self-healing locator / data proposals from failing traces
+- Contract and API gates in CI before UI suites run
+- Knowledge-backed generation (RAG) so suggestions stay project-aware
+- Observability: test spans correlated with service behaviour, not only screenshots
+
+> Source code for DevEval and AIQA remains private. For demos, architecture walkthroughs, or consulting, reach out via [LinkedIn](https://www.linkedin.com/in/p-avinash-sharma-8b0203b9/) or [email](mailto:avinashautomationqa@hotmail.com).
+
+## Featured projects (public)
 
 | Project | Summary | Stack | Repository |
 |---|---|---|---|
@@ -100,11 +126,9 @@ flowchart LR
 
 | Initiative | Documented outcome |
 |---|---|
-| Playwright MCP and framework architecture | 35–40% reduction in automation setup and maintenance effort |
-| Playtest no-code / low-code engine | ~50% reduction in automation development effort |
+| **AIQA Platform** (private) — Playwright MCP, agents, Playtest | 35–40% less setup/maintenance · ~50% less automation development effort · 25–30% better coverage · 25–30% faster regression |
+| **DevEval Framework** (private) — automation maturity scorecards | Consistent quality baselines across programs; clearer remediation priorities for framework health and flake reduction |
 | Tosca-to-Playwright converter | ~60% reduction in migration effort |
-| AI-assisted test generation | 25–30% improvement in automation coverage |
-| Sharded CI/CD execution and quality gates | 25–30% faster regression cycles |
 | Copilot-assisted development practices across the team | ~40% productivity improvement |
 
 ## Certifications & speaking
@@ -125,14 +149,14 @@ flowchart LR
 ## GitHub statistics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Avinash258&show_icons=true&theme=graywhite&hide_border=true&hide_title=true&hide_rank=true" alt="GitHub statistics" height="160">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Avinash258&layout=compact&theme=graywhite&hide_border=true&hide_title=true&langs_count=6" alt="Top languages" height="160">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Avinash258&theme=github_dark" alt="GitHub statistics" height="180">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Avinash258&theme=github_dark" alt="Top languages" height="180">
 </p>
 
 ## Activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Avinash258&theme=minimal&hide_border=true&area=true&hide_title=true" alt="Contribution activity" width="90%">
+  <img src="https://streak-stats.demolab.com?user=Avinash258&theme=dark&hide_border=true&border_radius=6" alt="Contribution streak" />
 </p>
 
 ## Contact
@@ -143,7 +167,7 @@ flowchart LR
 | **LinkedIn** | [linkedin.com/in/p-avinash-sharma-8b0203b9](https://www.linkedin.com/in/p-avinash-sharma-8b0203b9/) |
 | **Email** | [avinashautomationqa@hotmail.com](mailto:avinashautomationqa@hotmail.com) |
 | **YouTube** | [Playwright, Tosca and AI-testing tutorials](https://www.youtube.com/playlist?list=PLiUZog8eJ3L625AL1TLkZ7xWOsvK7AKre) |
-| **Portfolio** | [avinash258.github.io/Protfolio](https://avinash258.github.io/Protfolio/) |
+| **Portfolio** | [Portfolio site](https://avinash258.github.io/Protfolio/) |
 | **Open to** | QA Architect roles · automation transformation consulting · framework and pipeline audits |
 
 ---
