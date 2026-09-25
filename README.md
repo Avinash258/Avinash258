@@ -74,15 +74,15 @@ flowchart LR
 
 | Project | Summary | Stack | Repo |
 |---|---|---|---|
-| **Playwright AI Automation Framework** | Playwright + TypeScript framework with MCP integration, Planner / Generator / Healer agents, fixtures, reporters and CI templates | TypeScript, Playwright, MCP, OpenAI / Azure AI | [PROJECT_REPOSITORY_URL] |
-| **Playtest – No-Code / Low-Code Playwright Engine** | Business-readable test authoring compiled onto the Playwright runtime; reporting and CI included | TypeScript, Playwright, Node.js | [PROJECT_REPOSITORY_URL] |
+| **Playwright AI Automation Framework** | Playwright + TypeScript framework with MCP integration, Planner / Generator / Healer agents, fixtures, reporters and CI templates | TypeScript, Playwright, MCP, OpenAI / Azure AI | [PlaywrightMCPAgents](https://github.com/Avinash258/PlaywrightMCPAgents) · [PlaywrightMCPAgent](https://github.com/Avinash258/PlaywrightMCPAgent) |
+| **Playtest – No-Code / Low-Code Playwright Engine** | Business-readable test authoring compiled onto the Playwright runtime; reporting and CI included | TypeScript, Playwright, Node.js | [eyPOC](https://github.com/Avinash258/eyPOC) |
 | **Tosca-to-Playwright Converter** | Parses Tosca test assets and generates a page-object-based Playwright project | JavaScript, Playwright | [Tosca2PlayWright](https://github.com/Avinash258/Tosca2PlayWright) |
-| **AI Test Case Generator** | Requirement-to-scenario generation with coverage and gap analysis, RAG-backed | Python, LangChain, RAG | [PROJECT_REPOSITORY_URL] |
-| **Automated Web Crawler** | Crawls an application to map pages, forms and flows; seeds test generation and accessibility audits | TypeScript, Playwright | [PROJECT_REPOSITORY_URL] |
-| **Contract Testing / Pact Framework** | Consumer-driven contract testing with broker integration and CI verification gates | Pact, TypeScript / Java | [PROJECT_REPOSITORY_URL] |
-| **Playwright CI/CD Framework** | Sharded Playwright execution on Azure DevOps and GitHub Actions with Docker runners and quality gates | Azure DevOps, GitHub Actions, Docker | [PROJECT_REPOSITORY_URL] |
-| **AI Testing Toolkit** | Utilities for LLM output evaluation, accessibility auditing and trace-to-API extraction | Python, TypeScript, Gemini / OpenAI | [PROJECT_REPOSITORY_URL] |
-| **OpenTelemetry for Test Automation** | OTel instrumentation for Playwright runs: spans per step, links to backend traces, failure analytics | TypeScript, OpenTelemetry | [PROJECT_REPOSITORY_URL] |
+| **AI Test Case Generator** | Requirement-to-scenario generation with coverage and gap analysis, RAG-backed | Python, LangChain, RAG | [AI-Shadow-Product-Owner](https://github.com/Avinash258/AI-Shadow-Product-Owner) · [RagBaseSolution](https://github.com/Avinash258/RagBaseSolution) |
+| **Automated Web Crawler / Accessibility Auditor** | Maps pages and flows; AI-powered WCAG / ADA / Section 508 audits with multi-format reports | TypeScript, Playwright, Gemini | [AI-accessibilty-Auditor](https://github.com/Avinash258/AI-accessibilty-Auditor) |
+| **Contract Testing Framework** | Consumer-driven contract testing with broker-style verification and CI gates | JavaScript, Pact / contract checks | [contractdev2](https://github.com/Avinash258/contractdev2) |
+| **Playwright CI/CD Framework** | Sharded Playwright execution on Azure DevOps and GitHub Actions with quality gates | Azure DevOps, GitHub Actions, TypeScript | [PlaywrightTSFrameWork](https://github.com/Avinash258/PlaywrightTSFrameWork) · [HTD2.0Azure](https://github.com/Avinash258/HTD2.0Azure) · [PlaywrightADO](https://github.com/Avinash258/PlaywrightADO) |
+| **AI Testing Toolkit** | Trace-to-API extraction, Postman collection export, LLM utilities and accessibility tooling | Python, TypeScript, Gemini / OpenAI | [TraceViewer](https://github.com/Avinash258/TraceViewer) · [AI-accessibilty-Auditor](https://github.com/Avinash258/AI-accessibilty-Auditor) |
+| **Playwright POM Starter** | Page-object Playwright scaffold used as the base for framework rollouts | JavaScript, Playwright | [playwright-page-object-master](https://github.com/Avinash258/playwright-page-object-master) |
 
 ## Technology stack
 
@@ -139,9 +139,11 @@ flowchart LR
 
 | | |
 |---|---|
+| **GitHub** | [github.com/Avinash258](https://github.com/Avinash258) |
 | **LinkedIn** | [linkedin.com/in/p-avinash-sharma-8b0203b9](https://www.linkedin.com/in/p-avinash-sharma-8b0203b9/) |
 | **Email** | [avinashautomationqa@hotmail.com](mailto:avinashautomationqa@hotmail.com) |
 | **YouTube** | [Playwright, Tosca and AI-testing tutorials](https://www.youtube.com/playlist?list=PLiUZog8eJ3L625AL1TLkZ7xWOsvK7AKre) |
+| **Portfolio** | [avinash258.github.io/Protfolio](https://avinash258.github.io/Protfolio/) |
 | **Open to** | QA Architect roles · automation transformation consulting · framework and pipeline audits |
 
 ---
