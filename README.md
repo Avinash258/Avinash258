@@ -110,17 +110,42 @@ These platforms live in private / client repositories. Public source is not avai
 | [**AI Testing Toolkit**](https://github.com/Avinash258/TraceViewer) | Trace-to-API extraction, Postman collection export, LLM utilities and accessibility tooling | Python, TypeScript, Gemini / OpenAI | [github.com/Avinash258/TraceViewer](https://github.com/Avinash258/TraceViewer)<br>[github.com/Avinash258/AI-accessibilty-Auditor](https://github.com/Avinash258/AI-accessibilty-Auditor) |
 | [**Playwright POM Starter**](https://github.com/Avinash258/playwright-page-object-master) | Page-object Playwright scaffold used as the base for framework rollouts | JavaScript, Playwright | [github.com/Avinash258/playwright-page-object-master](https://github.com/Avinash258/playwright-page-object-master) |
 
-## Technology stack
+## Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=typescript,javascript,python,java,nodejs,selenium,azure,docker,github,jenkins,postman,mysql,react,fastapi&theme=dark" alt="Tech stack icons">
+</p>
 
 | Layer | Technologies |
 |---|---|
-| **UI automation** | Playwright · Selenium · Cypress · WebdriverIO · Tosca |
+| **UI automation** | Playwright · Selenium · Cypress · WebdriverIO · Tosca · Appium |
 | **Languages** | TypeScript · JavaScript · Java · Python · SQL |
-| **API & contract** | REST · Postman · RestAssured · Pact |
-| **AI** | OpenAI · Azure AI · LangChain · RAG · Playwright MCP · LLM testing · AI agents |
-| **Performance & data** | JMeter · SQL · Snowflake |
-| **CI/CD & cloud** | Azure · Azure DevOps · GitHub Actions · Docker |
-| **Observability** | OpenTelemetry · trace-based debugging |
+| **API & contract** | REST · Postman · RestAssured · Pact · GraphQL |
+| **AI / Agentic QA** | Playwright MCP · OpenAI · Azure AI · LangChain · RAG · LLM testing · AI agents |
+| **Private platforms** | **AIQA Platform** · **DevEval Framework** · Playtest (no-code / low-code) |
+| **Performance & data** | JMeter · SQL · Snowflake · MongoDB |
+| **CI/CD & cloud** | Azure · Azure DevOps · GitHub Actions · Docker · Jenkins |
+| **Observability** | OpenTelemetry · Playwright Trace · failure analytics |
+
+## Currently learning / building
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AIQA%20Platform-private-111111?style=for-the-badge" alt="AIQA">
+  <img src="https://img.shields.io/badge/DevEval%20Framework-private-111111?style=for-the-badge" alt="DevEval">
+  <img src="https://img.shields.io/badge/AI%20Agents-Planner%20%7C%20Generator%20%7C%20Healer-0A66C2?style=for-the-badge" alt="AI Agents">
+  <img src="https://img.shields.io/badge/Playwright%20MCP-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright MCP">
+  <img src="https://img.shields.io/badge/Azure%20AI%20Foundry-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure AI Foundry">
+  <img src="https://img.shields.io/badge/RAG%20%2F%20LLMs-412991?style=for-the-badge&logo=openai&logoColor=white" alt="RAG LLMs">
+  <img src="https://img.shields.io/badge/Contract%20Testing%20(Pact)-FF6C37?style=for-the-badge" alt="Pact">
+  <img src="https://img.shields.io/badge/OpenTelemetry-000000?style=for-the-badge&logo=opentelemetry&logoColor=white" alt="OpenTelemetry">
+  <img src="https://img.shields.io/badge/Physical%20AI-simulation--first-333333?style=for-the-badge" alt="Physical AI">
+</p>
+
+- Hardening the AIQA Planner → Generator → Healer loop with evaluation datasets and regression thresholds
+- Expanding **DevEval** scorecards (flake rate, coverage depth, CI feedback time, framework health)
+- OpenTelemetry-native test reporting that correlates test spans with service traces
+- Contract-testing agents that derive Pact contracts from OpenAPI specs and observed traffic
+- Simulation-first Physical AI: sense → plan → safety-gate → act
 
 ## Professional impact
 
@@ -139,13 +164,6 @@ These platforms live in private / client repositories. Public source is not avai
 - **Speaker:** Agile Testing Alliance Global Testing Retreat, #ATAGTR2025
 - **Credmark:** Top 10% Playwright practitioners worldwide (2025)
 
-## Current focus
-
-- Hardening the Planner → Generator → Healer loop with evaluation datasets and regression thresholds
-- OpenTelemetry-native test reporting that correlates test spans with service traces
-- Contract-testing agents that derive Pact contracts from OpenAPI specs and observed traffic
-- Simulation-first Physical AI: a robot-arm chess player built as a sense → plan → safety-gate → act pipeline
-
 ## GitHub statistics
 
 <p align="center">
@@ -159,16 +177,17 @@ These platforms live in private / client repositories. Public source is not avai
   <img src="https://streak-stats.demolab.com?user=Avinash258&theme=dark&hide_border=true&border_radius=6" alt="Contribution streak" />
 </p>
 
-## Contact
+## Let's connect
 
-| | |
-|---|---|
-| **GitHub** | [github.com/Avinash258](https://github.com/Avinash258) |
-| **LinkedIn** | [linkedin.com/in/p-avinash-sharma-8b0203b9](https://www.linkedin.com/in/p-avinash-sharma-8b0203b9/) |
-| **Email** | [avinashautomationqa@hotmail.com](mailto:avinashautomationqa@hotmail.com) |
-| **YouTube** | [Playwright, Tosca and AI-testing tutorials](https://www.youtube.com/playlist?list=PLiUZog8eJ3L625AL1TLkZ7xWOsvK7AKre) |
-| **Portfolio** | [Portfolio site](https://avinash258.github.io/Protfolio/) |
-| **Open to** | QA Architect roles · automation transformation consulting · framework and pipeline audits |
+<p align="center">
+  <a href="https://github.com/Avinash258"><img src="https://img.shields.io/badge/GitHub-Avinash258-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://www.linkedin.com/in/p-avinash-sharma-8b0203b9/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.youtube.com/playlist?list=PLiUZog8eJ3L625AL1TLkZ7xWOsvK7AKre"><img src="https://img.shields.io/badge/YouTube-Tutorials-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"></a>
+  <a href="mailto:avinashautomationqa@hotmail.com"><img src="https://img.shields.io/badge/Email-Say%20hello-333333?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email"></a>
+  <a href="https://avinash258.github.io/Protfolio/"><img src="https://img.shields.io/badge/Portfolio-Live%20site-111111?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio"></a>
+</p>
+
+<p align="center">Open to <b>QA Architect</b> roles · automation transformation consulting · framework and pipeline audits · DevEval / AIQA demos</p>
 
 ---
 
