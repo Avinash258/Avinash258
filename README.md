@@ -37,18 +37,17 @@ Agentic QA, as I build it, is a pipeline of narrow, auditable agents rather than
 
 ```mermaid
 flowchart LR
-    R[Requirements / User stories] --> P[Planner Agent]
-    P -->|scenarios + risk map| G[Test Generator Agent]
+    R[Requirements / user stories] --> P[Planner agent]
+    P -->|scenarios + risk map| G[Generator agent]
     G -->|Playwright specs| X[Execution via Playwright MCP]
-    X -->|traces + OTel spans| H[Healer Agent]
-    H -->|locator / data fixes| X
-    X --> C[Contract Testing Agent]
+    X -->|traces| H[Healer agent]
+    H -->|proposed fixes for review| X
     KB[(RAG knowledge base)] -.context.-> P
     KB -.context.-> G
-    KB -.context.-> H
-    X --> O[Observability & reports]
+    X --> O[Reports]
 ```
 
+*In progress (not yet public end-to-end):* OpenTelemetry-native reporting beyond the [`playwright-otel-reporter`](https://github.com/Avinash258/playwright-otel-reporter) JSON exporter · contract agents that derive Pact from OpenAPI.
 | Capability | What it does |
 |---|---|
 | **Playwright MCP** | Exposes the browser to LLM agents through the Model Context Protocol so agents act on real pages, not guessed DOM |
