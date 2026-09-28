@@ -130,15 +130,15 @@ These platforms live in private / client repositories. Public source is not avai
 ## Currently learning / building
 
 <p align="center">
-  <img src="https://img.shields.io/badge/AIQA%20Platform-private-111111?style=for-the-badge" alt="AIQA">
-  <img src="https://img.shields.io/badge/DeepEVL%20Framework-private-111111?style=for-the-badge" alt="DeepEVL">
-  <img src="https://img.shields.io/badge/AI%20Agents-Planner%20%7C%20Generator%20%7C%20Healer-0A66C2?style=for-the-badge" alt="AI Agents">
-  <img src="https://img.shields.io/badge/Playwright%20MCP-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright MCP">
-  <img src="https://img.shields.io/badge/Azure%20AI%20Foundry-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure AI Foundry">
-  <img src="https://img.shields.io/badge/RAG%20%2F%20LLMs-412991?style=for-the-badge&logo=openai&logoColor=white" alt="RAG LLMs">
-  <img src="https://img.shields.io/badge/Contract%20Testing%20(Pact)-FF6C37?style=for-the-badge" alt="Pact">
-  <img src="https://img.shields.io/badge/OpenTelemetry-000000?style=for-the-badge&logo=opentelemetry&logoColor=white" alt="OpenTelemetry">
-  <img src="https://img.shields.io/badge/Physical%20AI-simulation--first-333333?style=for-the-badge" alt="Physical AI">
+  <a href="https://avinash258.github.io/Protfolio/#platforms"><img src="https://img.shields.io/badge/AIQA%20Platform-private-111111?style=for-the-badge" alt="AIQA"></a>
+  <a href="https://avinash258.github.io/Protfolio/#platforms"><img src="https://img.shields.io/badge/DeepEVL%20Framework-private-111111?style=for-the-badge" alt="DeepEVL"></a>
+  <a href="https://github.com/Avinash258/PlaywrightMCPAgents"><img src="https://img.shields.io/badge/AI%20Agents-Planner%20%7C%20Generator%20%7C%20Healer-0A66C2?style=for-the-badge" alt="AI Agents"></a>
+  <a href="https://github.com/Avinash258/PlaywrightMCPAgents"><img src="https://img.shields.io/badge/Playwright%20MCP-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright MCP"></a>
+  <a href="https://ai.azure.com/"><img src="https://img.shields.io/badge/Azure%20AI%20Foundry-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure AI Foundry"></a>
+  <a href="https://github.com/Avinash258/RagBaseSolution"><img src="https://img.shields.io/badge/RAG%20%2F%20LLMs-412991?style=for-the-badge&logo=openai&logoColor=white" alt="RAG LLMs"></a>
+  <a href="https://github.com/Avinash258/contractdev2"><img src="https://img.shields.io/badge/Contract%20Testing%20(Pact)-FF6C37?style=for-the-badge" alt="Pact"></a>
+  <a href="https://opentelemetry.io/"><img src="https://img.shields.io/badge/OpenTelemetry-000000?style=for-the-badge&logo=opentelemetry&logoColor=white" alt="OpenTelemetry"></a>
+  <a href="https://avinash258.github.io/Protfolio/"><img src="https://img.shields.io/badge/Physical%20AI-simulation--first-333333?style=for-the-badge" alt="Physical AI"></a>
 </p>
 
 - Hardening the AIQA Planner → Generator → Healer loop with evaluation datasets and regression thresholds
