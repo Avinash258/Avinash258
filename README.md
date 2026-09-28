@@ -116,6 +116,14 @@ Top five flagships. One row = one repo. Related work is linked from each README.
 | **CI/CD & cloud** | Azure · Azure DevOps · GitHub Actions · Docker |
 | **Observability** | Playwright Trace · failure analytics |
 
+## Growth releases (Phase 4)
+
+| Release | What it proves | Link |
+|---|---|---|
+| **Playwright MCP Agents v0.1** | Planner → Generator → Healer demo walkthrough + SauceDemo generated cart spec + CI | [PlaywrightMCPAgents](https://github.com/Avinash258/PlaywrightMCPAgents) · [Demo docs](https://github.com/Avinash258/PlaywrightMCPAgents/blob/main/docs/DEMO.md) |
+| **playwright-sharded-ci v0.1** | Reusable GitHub Action: N parallel shards → merged HTML report | [playwright-sharded-ci](https://github.com/Avinash258/playwright-sharded-ci) |
+| **playwright-otel-reporter v0.1** | Custom Playwright reporter → OpenTelemetry-style JSON spans | [playwright-otel-reporter](https://github.com/Avinash258/playwright-otel-reporter) |
+
 ## Currently learning / building
 
 <p align="center">
@@ -126,13 +134,14 @@ Top five flagships. One row = one repo. Related work is linked from each README.
   <a href="https://ai.azure.com/"><img src="https://img.shields.io/badge/Azure%20AI%20Foundry-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure AI Foundry"></a>
   <a href="https://github.com/Avinash258/RagBaseSolution"><img src="https://img.shields.io/badge/RAG%20%2F%20LLMs-412991?style=for-the-badge&logo=openai&logoColor=white" alt="RAG LLMs"></a>
   <a href="https://github.com/Avinash258/contractdev2"><img src="https://img.shields.io/badge/Contract%20Testing%20(Pact)-FF6C37?style=for-the-badge" alt="Pact"></a>
-  <a href="https://opentelemetry.io/"><img src="https://img.shields.io/badge/OpenTelemetry-000000?style=for-the-badge&logo=opentelemetry&logoColor=white" alt="OpenTelemetry"></a>
+  <a href="https://github.com/Avinash258/playwright-otel-reporter"><img src="https://img.shields.io/badge/OpenTelemetry-reporter%20v0.1-000000?style=for-the-badge&logo=opentelemetry&logoColor=white" alt="OpenTelemetry"></a>
 </p>
 
 - Hardening the AIQA Planner → Generator → Healer loop with evaluation datasets *(private platform)*
 - Expanding **DeepEVL** scorecards (flake rate, coverage depth, CI feedback time) *(private platform)*
-- OpenTelemetry-native test reporting *(in progress — no public package yet)*
+- OTLP/HTTP export for [`playwright-otel-reporter`](https://github.com/Avinash258/playwright-otel-reporter) *(next)*
 - Contract-testing agents that derive Pact contracts from OpenAPI *(in progress)*
+- Demo video for the MCP agents walkthrough *(record + link from README)*
 
 ## Professional impact
 
