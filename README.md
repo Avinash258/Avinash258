@@ -72,7 +72,7 @@ These platforms live in private / client repositories. Public source is not avai
 | Platform | About the work | What makes it strong |
 |---|---|---|
 | **DeepEVL Framework** *(private)* | Enterprise evaluation framework for developer and QA automation quality — scoring framework health, coverage depth, flaky-test rate, CI feedback time, and maintainability of Playwright / Selenium suites. | Measurable quality scorecard · weak-layer visibility · consistent maturity baselines · remediation priorities |
-| **AIQA Platform** *(private)* | End-to-end AI quality platform: Planner â†’ Generator â†’ Healer on Playwright MCP, RAG, contract checks, Playtest authoring, Toscaâ†’Playwright tooling. | Agentic QA with human review · documented delivery outcomes on client programs |
+| **AIQA Platform** *(private)* | End-to-end AI quality platform: Planner → Generator → Healer on Playwright MCP, RAG, contract checks, Playtest authoring, Tosca→Playwright tooling. | Agentic QA with human review · documented delivery outcomes on client programs |
 
 > Source for DeepEVL and AIQA remains private. For demos or architecture walkthroughs: [LinkedIn](https://www.linkedin.com/in/p-avinash-sharma-8b0203b9/) or [email](mailto:avinashautomationqa@hotmail.com).
 
@@ -84,7 +84,7 @@ Top five flagships. One row = one repo. Related work is linked from each README.
 |---|---|---|---|---|
 | 1 | [**Playwright MCP Agents**](https://github.com/Avinash258/PlaywrightMCPAgents) | Agentic browser automation on Playwright MCP — Planner / Generator / Healer loops producing reviewable specs | JavaScript, Playwright, MCP | [PlaywrightMCPAgents](https://github.com/Avinash258/PlaywrightMCPAgents) |
 | 2 | [**Playtest QA Platform**](https://github.com/Avinash258/eyPOC) | Unified TypeScript QA platform: UI, API, Pact contracts, performance and Allure reporting | TypeScript, Playwright, Pact | [eyPOC](https://github.com/Avinash258/eyPOC) |
-| 3 | [**Tosca â†’ Playwright**](https://github.com/Avinash258/Tosca2PlayWright) | Converts Tosca assets into a page-object Playwright project | Python, JavaScript, Playwright | [Tosca2PlayWright](https://github.com/Avinash258/Tosca2PlayWright) |
+| 3 | [**Tosca → Playwright**](https://github.com/Avinash258/Tosca2PlayWright) | Converts Tosca assets into a page-object Playwright project | Python, JavaScript, Playwright | [Tosca2PlayWright](https://github.com/Avinash258/Tosca2PlayWright) |
 | 4 | [**Playwright TS Framework**](https://github.com/Avinash258/PlaywrightTSFrameWork) | Production-style POM framework with sharded CI on Azure DevOps / GitHub Actions | TypeScript, Playwright, Azure DevOps | [PlaywrightTSFrameWork](https://github.com/Avinash258/PlaywrightTSFrameWork) |
 | 5 | [**Contract Testing**](https://github.com/Avinash258/contractdev2) | Consumer-driven contract testing for GraphQL / gRPC with Pact-style verification | JavaScript, Pact, Jest | [contractdev2](https://github.com/Avinash258/contractdev2) |
 
@@ -92,10 +92,10 @@ Top five flagships. One row = one repo. Related work is linked from each README.
 
 | Project | Summary | Stack | Repository |
 |---|---|---|---|
-| [AI Test Case Generator](https://github.com/Avinash258/AI-Shadow-Product-Owner) | Requirement â†’ scenarios with coverage / gap analysis | React, TypeScript, Vite, Gemini | [AI-Shadow-Product-Owner](https://github.com/Avinash258/AI-Shadow-Product-Owner) |
+| [AI Test Case Generator](https://github.com/Avinash258/AI-Shadow-Product-Owner) | Requirement → scenarios with coverage / gap analysis | React, TypeScript, Vite, Gemini | [AI-Shadow-Product-Owner](https://github.com/Avinash258/AI-Shadow-Product-Owner) |
 | [Playwright RAG Chatbot](https://github.com/Avinash258/RagBaseSolution) | Local RAG over Playwright testing knowledge (ChromaDB + Ollama) | Python, ChromaDB, Ollama | [RagBaseSolution](https://github.com/Avinash258/RagBaseSolution) |
 | [AI Accessibility Auditor](https://github.com/Avinash258/AI-accessibilty-Auditor) | URL-based WCAG / ADA / Section 508 oriented audits via Gemini | React, TypeScript, Gemini | [AI-accessibilty-Auditor](https://github.com/Avinash258/AI-accessibilty-Auditor) |
-| [Trace â†’ Postman](https://github.com/Avinash258/TraceViewer) | Playwright `trace.zip` â†’ sequenced API breakup + Postman v2.1 | Python | [TraceViewer](https://github.com/Avinash258/TraceViewer) |
+| [Trace → Postman](https://github.com/Avinash258/TraceViewer) | Playwright `trace.zip` → sequenced API breakup + Postman v2.1 | Python | [TraceViewer](https://github.com/Avinash258/TraceViewer) |
 | [Playwright POM Starter](https://github.com/Avinash258/playwright-page-object-master) | Page Object Model starter for framework rollouts | JavaScript / TypeScript, Playwright | [playwright-page-object-master](https://github.com/Avinash258/playwright-page-object-master) |
 | [HTD 2.0 Azure training](https://github.com/Avinash258/HTD2.0Azure) | Sauce Demo POM baseline for Azure-oriented training | TypeScript, Playwright | [HTD2.0Azure](https://github.com/Avinash258/HTD2.0Azure) |
 
@@ -119,9 +119,9 @@ Top five flagships. One row = one repo. Related work is linked from each README.
 
 | Release | What it proves | Link |
 |---|---|---|
-| **Playwright MCP Agents v0.1** | Planner â†’ Generator â†’ Healer demo walkthrough + SauceDemo generated cart spec + CI | [PlaywrightMCPAgents](https://github.com/Avinash258/PlaywrightMCPAgents) · [Demo docs](https://github.com/Avinash258/PlaywrightMCPAgents/blob/main/docs/DEMO.md) |
-| **playwright-sharded-ci v0.1** | Reusable GitHub Action: N parallel shards â†’ merged HTML report | [playwright-sharded-ci](https://github.com/Avinash258/playwright-sharded-ci) |
-| **playwright-otel-reporter v0.1** | Custom Playwright reporter â†’ OpenTelemetry-style JSON spans | [playwright-otel-reporter](https://github.com/Avinash258/playwright-otel-reporter) |
+| **Playwright MCP Agents v0.1** | Planner → Generator → Healer demo walkthrough + SauceDemo generated cart spec + CI | [PlaywrightMCPAgents](https://github.com/Avinash258/PlaywrightMCPAgents) · [Demo docs](https://github.com/Avinash258/PlaywrightMCPAgents/blob/main/docs/DEMO.md) |
+| **playwright-sharded-ci v0.1** | Reusable GitHub Action: N parallel shards → merged HTML report | [playwright-sharded-ci](https://github.com/Avinash258/playwright-sharded-ci) |
+| **playwright-otel-reporter v0.1** | Custom Playwright reporter → OpenTelemetry-style JSON spans | [playwright-otel-reporter](https://github.com/Avinash258/playwright-otel-reporter) |
 
 ## Currently learning / building
 
@@ -136,7 +136,7 @@ Top five flagships. One row = one repo. Related work is linked from each README.
   <a href="https://github.com/Avinash258/playwright-otel-reporter"><img src="https://img.shields.io/badge/OpenTelemetry-reporter%20v0.1-000000?style=for-the-badge&logo=opentelemetry&logoColor=white" alt="OpenTelemetry"></a>
 </p>
 
-- Hardening the AIQA Planner â†’ Generator â†’ Healer loop with evaluation datasets *(private platform)*
+- Hardening the AIQA Planner → Generator → Healer loop with evaluation datasets *(private platform)*
 - Expanding **DeepEVL** scorecards (flake rate, coverage depth, CI feedback time) *(private platform)*
 - OTLP/HTTP export for [`playwright-otel-reporter`](https://github.com/Avinash258/playwright-otel-reporter) *(next)*
 - Contract-testing agents that derive Pact contracts from OpenAPI *(in progress)*
