@@ -153,12 +153,15 @@ Outcomes from delivery programs (private platforms / client work). Figures are d
 | Tosca-to-Playwright converter | ~60% reduction in migration effort |
 | Copilot-assisted development practices | ~40% productivity improvement |
 
-## Certifications & speaking
+## Speaking
+
+- **Speaker — Global Testing Retreat 2025 (#ATAGTR2025)** — Agile Testing Alliance · 22–23 Nov 2025 (Virtual) · 14 Dec 2025 (Pune) · [Certificate](https://certificate.givemycertificate.com/c/b0b33736-023f-4f0d-92eb-efbc41509743)
+
+## Licenses & certifications
 
 - **Microsoft Certified: Azure Solutions Architect Expert** (2026)
 - **Microsoft Certified: Azure Developer Associate (AZ-204)** and **Azure Administrator Associate (AZ-104)** (2025)
 - **Tricentis Tosca:** Automation Specialist L1 & L2 · Automation Engineer L1 · Test Design Specialist L1 & L2
-- **Speaker:** [Agile Testing Alliance Global Testing Retreat, #ATAGTR2025](https://certificate.givemycertificate.com/c/b0b33736-023f-4f0d-92eb-efbc41509743)
 - **Credmark:** Top 10% Playwright practitioners worldwide (2025)
 
 ## Let's connect
